@@ -6,7 +6,7 @@ import { User } from './types/User' // Import interface
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<'home' | 'about'>('home')
-  const user: User = { name: 'Hakim Ibrahim', age: 20 }; // Interface
+  const user: User = { name: 'Hakim Ibrahim', age: 22 }; // Interface
 
 
   return (
@@ -21,7 +21,7 @@ const App: React.FC = () => {
         {currentView === 'about' && <About />}
       </div>
       <div>
-        <p>Hello, {user.name}!</p> {/* Use data from the interface */}
+        <p>Hello, {user.name}!</p> 
       </div>
     </div>
   )
