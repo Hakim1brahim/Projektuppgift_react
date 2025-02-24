@@ -52,3 +52,11 @@ nav button:hover {
   border: 3px solid #333;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.app.light {
+  background-color: white;
+  color: black;
+}
+.app.dark {
+  background-color: black;
+  color: white;
+}
